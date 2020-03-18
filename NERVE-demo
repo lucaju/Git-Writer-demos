@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p/>
+            </seriesStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
+            <sourceDesc>
+                
+                <listBibl>
+                    <bibl> <title level="a" type="main">Preface/Préface</title> <author rend="bold"><forename>Marie</forename> <surname>Carrière</surname></author> &amp; <author rend="bold"><forename>Patricia</forename> <surname>Demers</surname></author> </bibl>
+                    <listBibl>
+                        <head>Au Fil de la Narration</head>
+                        <bibl>
+                            <title level="a" type="main">Au fill de la narration et des générations</title>
+                            <author>
+                                <forename>Nicole</forename>
+                                <surname>Brossard</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Women Who Invite Collaboration</title>
+                            <title type="sub">Caroline Bergvall, Erín Moure, et al.</title>
+                            <author>
+                                <forename>Susan</forename>
+                                <surname>Rudy</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">A Modernist Commons in Canada/Une commune moderniste au Canada</title>
+                            <author>
+                                <forename>Dean</forename>
+                                <surname>Irvine</surname>
+                            </author>
+                        </bibl>
+                        <bibl><title level="a" type="main">L'apport du concept d'ontologie informatique à l'étude de l'histoire littéraire des femmes au XIXe siècle</title> <author><forename>Chantal</forename> <surname>Savoie</surname></author> &amp; <author><forename>Julie</forename> <surname>Roy</surname></author></bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Back to the Future</head>
+                        <bibl>
+                            <title level="a" type="main">Reclaiming the Past, Nurturing the Future</title>
+                            <author>
+                                <forename>Rosemary</forename>
+                                <surname>Sullivan</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Du métaféminisme et des histoires au féminin</title>
+                            <author>
+                                <forename>Marie</forename>
+                                <surname>Carrière</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Gothic Romance in Quebec</title>
+                            <title type="sub">Engaging English and French in Nineteenth-Century English-Canadian Fiction by Women</title>
+                            <author>
+                                <forename>Lindsay</forename>
+                                <surname>McMaster</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Readers Reading Margaret Laurence, 1965–1980</title>
+                            <author>
+                                <forename>Cinda</forename>
+                                <surname>Gault</surname>
+                            </author>
+                        </bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Des contextes minoritaires</head>
+                        <bibl>
+                            <title level="a" type="main">Être écrivaine en contexte minoritaire franco-canadien (1970–1985)</title>
+                            <author>
+                                <forename>Lucie</forename>
+                                <surname>Hotte</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Crooked Ribs, Modern Martyrs, and Dull Days</title>
+                            <title type="sub">Recovering Hidden Prince Edward Island Women through Their Life Writing</title>
+                            <author>
+                                <forename>Mary</forename>
+                                <surname>McDonald-Rissanen</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Common Measure</title>
+                            <title type="sub">“Folk Poetry” and the Scandal of Canadian Literature</title>
+                            <author>
+                                <forename>Gary</forename>
+                                <surname>Kelly</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Recuperating Oblivion in <title level="m">The Displaced View (1988)</title></title>
+                            <title type="sub">Midi Onodera’s Intercultural Feminist Experimental Cinematic Polyphony</title>
+                            <author>
+                                <forename>Sheena</forename>
+                                <surname>Wilson</surname>
+                            </author>
+                        </bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Women in Movement</head>
+                        <bibl>
+                            <title level="a" type="main">Publishing and Women in Movement</title>
+                            <title type="sub">Changing the Game</title>
+                            <author>
+                                <forename>Louise</forename>
+                                <surname>Dennys</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">"To Get In Behind the Curtain"</title>
+                            <title type="sub">Miriam Green Ellis’s Travels and Tales</title>
+                            <author>
+                                <forename>Patricia</forename>
+                                <surname>Demers</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">Catherine Mavrikakis</title>
+                            <title type="sub">La force de penser (chaque jour)</title>
+                            <author>
+                                <forename>Maïté</forename>
+                                <surname>Snauwaert</surname>
+                            </author>
+                        </bibl>
+                        <bibl>
+                            <title level="a" type="main">This is What a Public Intellectual Looks Like</title>
+                            <title type="sub">Dorothy Livesay’s Housewife Years and the Public Sphere</title>
+                            <author>
+                                <forename>Shauna</forename>
+                                <surname>Lancit</surname>
+                            </author>
+                        </bibl>
+                    </listBibl>
+                    <bibl><title level="a" type="main">Afterword</title> <author>Susan Brown</author> &amp; <author><forename>Mary-Jo</forename> <surname>Romaniuk</surname></author></bibl>
+                    <bibl>
+                        <title level="a" type="main">Contributors/Collaborateurs</title>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+</rdf:RDF></xenoData><encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Library and Archives Canada Cataloguing in Publication</desc>
+                </taxonomy>
+
+                
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline/>
+                <item/>
+                <index>
+                    <term/>
+                </index>
+                <byline/>
+                <index>
+                    <term/>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            
+            
+            <div type="part">
+                <head xml:lang="fr-CA">Des Contextes Minoritaires...</head>
+                <div type="chapter" xml:lang="fr-CA">
+                    <head>Être écrivaine en contexte minoritaire franco-canadien (<date from="1970" to="1985" cert="high">1970–1985</date>)</head>
+                    <docAuthor>
+                        <persName ref=" http://viaf.org/viaf/32220127" cert="high">lucie hotte</persName>
+                    </docAuthor>
+                    <div type="section">
+                        <p xml:id="p274">
+                            <ref target="#historical_oppression">
+                                <ref target="#canon_formation">Commençons par une évidence : il y a toujours eu des femmes auteures. Faisons-la suivre d’une seconde : leur situation sur la scène littéraire n’a jamais été, jusqu’à récemment (et encore il faudrait sans doute nuancer cette affirmation), la même que celle des hommes. Ces affirmations, pour évidentes qu’elles puissent paraître, ont fait l’objet d’un bon nombre d’études savantes depuis l’avènement du féminisme. En effet, en dépit de ce qui nous semble indiscutable, il est parfois bien difficile de savoir combien de femmes ont écrit, voire combien de femmes écrivent. <ref target="#theme_or_topic">L’histoire littéraire</ref> en retient de fait bien peu. Dans son étude <title level="m" ref="http://viaf.org/viaf/314704425" cert="high">Des femmes en littérature</title>, <persName ref="http://viaf.org/viaf/73889695" cert="high">Martine Reid</persName> montre que les femmes n’accèdent que bien difficilement à la consécration puisque l’histoire littéraire <q>telle qu’elle s’est constituée au cours du <date from="2000" to="2100">XIXe siècle</date> a isolé quelques grandes figures au nom du <hi rend="italic">génie</hi> et d’une conception de la littérature résolument masculine</q> (Reid 6) et a exclu toutes les autres. Selon Reid, <q>[b]ien qu’elle ait été inlassablement dénoncée par la critique féministe dès le début des années <date when="1970" cert="high">1970</date>, cette situation d’ignorance et d’évitement perdure. Elle atteste, dit-elle, une surprenante résistance du champ académique […] et de ses acteurs, des enseignants, éditeurs et médias</q> (6). La littérature française n’est certes pas la seule à passer sous silence <ref target="#theme_or_topic">la production littéraire des femmes</ref> : il en est de même en littérature anglaise.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p275">
+                            <ref target="#representation_of_women">
+                                <ref target="#genre_novel"><ref target="#genre_scholarlyWriting">Dans un article paru en <date when="1986" cert="high">1986</date>, qui a fait date, <persName ref="http://viaf.org/viaf/27104976" cert="high">Dale Spender</persName> illustre cet état de fait à partir du roman anglais du <date from="1700" to="1800">XVIIIe</date> siècle. Elle rappelle que l’ouvrage de référence utilisé dans tous les cours universitaires a longtemps été <title xmlns="http://www.tei-c.org/ns/1.0" level="m" ref="http://viaf.org/viaf/310218323" cert="high"><hi xml:lang="en-CA">The Rise of the Novel: Studies in Defoe, Richardson and Fielding</hi></title> du critique renommé <persName ref="http://viaf.org/viaf/14862421" cert="high">Ian Watt</persName>.</ref> Spender dénonce le fait que dans cet ouvrage, qui prétendait faire l’histoire de la genèse du genre romanesque en <placeName ref="http://www.geonames.org/6269131/" cert="high">Angleterre</placeName>,Watt louange exclusivement des hommes qui, selon lui, ont donné naissance au genre. <ref target="#women_writing">Pourtant, Watt mentionne bien que <q xmlns="http://www.tei-c.org/ns/1.0"><hi xml:lang="en-CA" rend="italic">the majority of <date from="1700" to="1800" cert="high">eighteenth-century</date> novels were written by women</hi></q> (Spender 19). Il n’en demeure toutefois pas moins qu’il n’aborde pas du tout la question de la production féminine et ne mentionne qu’en passant quelques noms de romancières. Pourquoi Watt ne juge-t-il pas important d’analyser ces textes? <ref target="#historical_oppression">Selon Spender, qui a recensé plus de 600 romans écrits par une centaine de <q xmlns="http://www.tei-c.org/ns/1.0">grandes</q> romancières du <listEvent> <event> <label>Siècle des Lumières</label> </event> </listEvent> ayant connu leur heure de gloire à l’époque, ces écrivaines ont simplement été les victimes de l’androcentrisme de la critique littéraire.</ref></ref></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p276">
+                            <ref target="#representation_of_women">Au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>, <persName ref="http://viaf.org/viaf/78818356" cert="high">Isabelle Boisclair</persName> dresse un portrait tout aussi peu reluisant de la place des femmes dans le monde littéraire entre <date from="1900" to="1959">1900 et 1959</date>. <ref target="#writing_climate">Là, les femmes ne sont pas seulement absentes du discours critique, elles sont quasi absentes de la scène littéraire. <ref target="#education">Elle explique le difficile accès des femmes à l’écriture par des facteurs d’ordre sociologique. D’abord, le déficit éducatif à combler expliquerait que peu de femmes aient pu écrire à l’époque. En effet, seules les femmes les mieux nanties avaient accès à l’éducation supérieure, et encore, celle qui leur était donnée n’était pas la même que celle offerte aux hommes : les couvents mettaient l’accent sur l’économie domestique et la tenue de la maison.</ref> <ref target="#class_issue">Le deuxième facteur qu’elle évoque est celui de l’héritage familial. Naître dans une famille lettrée a longtemps été, au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>, un facteur déterminant dans la venue à l’écriture. Les femmes qui proviennent de milieux aisés, voire lettrés, sont souvent les seules à pouvoir se permettre d’écrire. <persName ref="http://viaf.org/viaf/60584790" cert="high">Lucie Robert</persName>, qui se penche aussi sur cette question, signale que si <q xmlns="http://www.tei-c.org/ns/1.0">le lien entre l’origine sociale, les études classiques et le métier d’écrire</q> est déterminant pour les hommes, il <q xmlns="http://www.tei-c.org/ns/1.0">devient encore plus évident quand on considère le statut des écrivaines</q> (<title xmlns="http://www.tei-c.org/ns/1.0" level="m">L’Institution du littéraire au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName></title> 70)</ref>. Ainsi, alors que 14 % des hommes de son corpus ont un parent proche qui est écrivain, cette proportion augmente à 27 % dans le cas des femmes (<title xmlns="http://www.tei-c.org/ns/1.0" level="m">Les écrivains et leurs études</title> 533). <ref target="#women_writing">Enfin, Isabelle Boisclair signale que le statut conjugal ou maternel des femmes est tout aussi déterminant. Sauf de rares exceptions, les femmes qui écrivent sont soit célibataires, soit sans enfant. Quand elles sont mariées et mères, elles se mettent le plus souvent à l’écriture une fois leur famille élevée.</ref></ref></ref>
+                        </p>
+                        <p xml:id="p277">
+                            <ref target="#representation_of_women">
+                                <ref target="#critique_of_canon">On pourrait croire qu’aujourd’hui la situation est fort différente. Est-ce vraiment le cas? Cette situation d’ignorance et d’évitement perdure-t-elle comme le soutient <persName ref="http://viaf.org/viaf/73889695" cert="high">Martine Reid</persName>? Faute de pouvoir me lancer dans une exploration de la place des femmes sur la scène littéraire mondiale, j’aimerais plutôt examiner de plus près celles des écrivaines du <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName> français, et plus particulièrement des <ref target="#theme_or_topic">écrivaines franco-ontariennes</ref>. En effet, il importe d’examiner la situation particulière de ces corpus littéraires marginalisés afin de déterminer si elle offre aux femmes un plus grand accès au monde des lettres ou au contraire si elle concourt à les exclure davantage. <ref target="#methodology">Deux questions orienteront mes propos. La première porte sur le nombre de femmes qui réussissent à publier ne serait-ce qu’un livre. Cette section de mon analyse se fonde sur un recensement statistique des auteurs et de leurs œuvres entre <date from="1970" to="1985">1970 et 1985</date> en <placeName ref="http://www.geonames.org/6093943" cert="high">Ontario</placeName>. La deuxième question porte sur l’accès à la consécration. Quelle place occupent les écrivaines dans le canon littéraire au <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName> français et plus particulièrement en <placeName ref="http://www.geonames.org/6093943" cert="high">Ontario</placeName> français? Deux raisons expliquent le fait que mon étude porte plus étroitement sur l’<placeName ref="http://www.geonames.org/6093943" cert="high">Ontario</placeName> français. D’abord, il s’agit, à mon avis, d’une aire féconde pour une première recherche exploratoire, à cause de l’importance quantitative de la production littéraire franco-ontarienne. Deuxièmement, ce corpus se prête mieux à l’analyse à cause de l’existence d’outils de recherche que j’ai pu mettre sur pied au cours des ans, dont la base de données <orgName><hi xmlns="http://www.tei-c.org/ns/1.0" rend="small-caps">BIBLIFO</hi></orgName>, qui me permettent de recenser non seulement tous les titres publiés, mais aussi toute la critique portant sur l’œuvre d’une vingtaine d’écrivains et d’écrivaines. Par ailleurs, mon analyse s’intéresse à la production littéraire entre <date from="1970" to="1985">1970 et 1985</date> car il s’agit là d’une époque charnière dans le développement des littératures francophones du <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName>, qui fondent alors des institutions autonomes provinciales en réaction à la <q xmlns="http://www.tei-c.org/ns/1.0">nationalisation</q> ou à la <q xmlns="http://www.tei-c.org/ns/1.0">provincialisation</q> de la littérature québécoise. Le but ultime de mon étude est de déterminer quels outils de recherche pourraient être mis sur pied afin de mieux mettre en valeur la production littéraire des femmes.</ref></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p278">
+                            <ref target="#politics">Il convient donc d’abord de dresser un portrait de l’époque afin de souligner comment les positions idéologiques endossées tant par les élites et la communauté que par les artistes ont influé durant ces années sur l’horizon d’attente de la critique.</ref>
+                            <ref target="#women_writing">Dans un deuxième temps, je présenterai rapidement les statistiques portant sur les femmes auteures en <placeName ref="http://www.geonames.org/6093943" cert="high">Ontario</placeName>, avant de faire l’analyse de <ref target="#theme_or_topic">la réception critique</ref> de l’œuvre de quelques écrivaines. <ref target="#canon_formation">En fin de parcours, je reviendrai sur la question de la canonisation et de la consécration des œuvres de femmes et des outils nécessaires à l’analyse de ces œuvres.</ref></ref>
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div type="section">
+                        <head>Tour d’horizon : le contexte sociopolitique des années 1970 à 1985 et
+                            son influence sur l’horizon d’attente</head>
+                        <p xml:id="p279">Les années 1970 marquent l’avènement d’institutions
+                            littéraires francophones autonomes dans les diverses provinces
+                            canadiennes, et tout particulièrement au Nouveau-Brunswick, en Ontario
+                            et au Manitoba. Ces institutions naissent à la suite de ce qu’il est
+                            convenu d’appeler l’éclatement du Canada français. Jusqu’à la fin des
+                            années 1960, les francophones du pays s’identifiaient tous comme
+                            Canadiens français et partageaient un passé, une culture et un projet de
+                            société. Or, au cours des années 1960, divers facteurs ont contribué à
+                            scinder la communauté canadienne-française. Ceux-ci découlent de
+                            transformations sociétales profondes, principalement au sein de la
+                            société québécoise, que l’on désigne sous le nom de <q>Révolution
+                                tranquille</q>. En effet, si jusqu’alors l’Église jouait un rôle
+                            central dans tous les aspects de la vie des Canadiens français du Québec
+                            et d’ailleurs au Canada, dont l’éducation, les soins de santé et les
+                            organisations caritatives, l’État prend la relève au cours de la
+                            deuxième moitié du XXe siècle, avec l’avènement de l’État-providence.
+                            Cette laïcisation de la société canadienne-française s’inscrit dans un
+                            mouvement plus large, propre au monde occidental, entraîné par l’arrivée
+                            à l’âge adulte de la génération des enfants de l’après-guerre, les <hi rend="italic" xml:lang="en-CA">baby boomers</hi>. Ceux-ci sont
+                            nombreux et adhèrent à des valeurs différentes de celles de leurs
+                            parents, valeurs qui ont notamment donné naissance à la contre-culture.
+                            Dans sa version politique, la contre-culture adopte des couleurs
+                            nationalistes de gauche qui ont marqué les jeunes Québécois œuvrant à
+                            l’élaboration d’une vision proprement <hi rend="italic">québécoise</hi>
+                            de leur identité et à l’établissement d’un pays francophone. Ce
+                            mouvement nationaliste indépendantiste au Québec a amené les Québécois à
+                            s’identifier comme Québécois et non plus comme Canadiens français. Dès
+                            lors, les Canadiens français habitant à l’extérieur de la province ont
+                            été <hi rend="italic">de facto</hi> exclus de cette nouvelle appellation
+                            identitaire. En outre, ils ne pouvaient plus se réclamer de l’identité
+                            canadienne-française, devenue caduque. Les jeunes Franco-Ontariens,
+                            Acadiens et les autres francophones de l’Ouest se sont vus confrontés à
+                            l’obligation de se doter d’une identité qui leur soit propre. N’ayant
+                            aucun pouvoir politique, n’ayant aucune tribune publique, ils ont opté
+                            pour les arts, notamment le théâtre, la littérature et la chanson, comme
+                            moyen d’exprimer leur réalité, leur identité et leur appartenance à <hi rend="italic">leur</hi> territoire, c’est-à-dire à leur province.
+                            C’est ainsi que la littérature a été mobilisée à des fins idéologiques,
+                            tant dans le discours de certains artistes que dans celui des élites,
+                            comme en témoignent, par exemple, le rapport du Comité franco-ontarien
+                            d’enquête culturelle (communément appelé le Rapport Saint-Denis, de
+                            1969) et celui du Groupe d’étude sur les arts dans la vie
+                            franco-ontarienne (le Rapport Savard, de 1977). C’est ce qui a amené par
+                            exemple Herménégilde Chiasson, artiste et écrivain acadien, à s’écrier :
+                            <q>Nous sommes devenus des Acadiens avant d’être des artistes.
+                                L’adjectif a supplanté le nom </q>. Il ironise lorsqu’il soutient
+                            que <q type="block">L’art en milieu minoritaire […] se manifeste surtout
+                                sous la forme de chronique, d’illustration ou d’archives. Il faut
+                                documenter le vécu de la collectivité, s’assurer qu’elle survivra
+                                dans les artefacts. […] On veut voir et entendre la vérité. […] Le
+                                réalisme donc et, si possible, l’hyperréalisme. […] On veut du
+                                théâtre franco-ontarien, de la poésie acadienne ou de la musique
+                                franco-manitobaine. En deuxième lieu, on veut que cette forme d’art
+                                nous identifie, donc nous illustre, nous archivise. (86–87)</q></p>
+                        <p xml:id="p280">La critique littéraire s’est aussi portée garante d’une
+                            telle vision de la littérature en contexte minoritaire. En effet, toute
+                            littérature minoritaire est d’emblée lue comme l’expression de la
+                            communauté dont elle émane. Mes recherches et celles que j’ai menées
+                            avec Johanne Melançon (Hotte, <title level="a">Fortune</title> et Hotte
+                            et Melançon) sur cette question montrent clairement que la grille de
+                            lecture privilégiée est essentiellement identitaire ou, comme je l’ai
+                            appelée ailleurs, référentielle, c’est-à-dire que l’on perçoit ces
+                            corpus comme étant descriptifs, mimétiques et surtout politiques. Comme
+                            le souligne Abbes Maazaoui, cette grille de lecture <q>ignore la
+                                dimension esthétique (textuelle et fictionnelle) de l’œuvre et
+                                réduit celle-ci à la réalité de l’auteur et du groupe auquel il
+                                appartient</q> (84). Maazaoui ajoute d’ailleurs que cette lecture
+                            <q>considère le texte comme un document et l’écrivain comme un
+                                expert du groupe (ethnique, sexuel, racial, etc.)</q> (84).</p>
+                        <p xml:id="p281">Quelle est la place des femmes dans une institution
+                            littéraire qui privilégie une telle conception politique, nationaliste
+                            de la littérature? Ne pourrait-on pas voir dans cette vision du rôle de
+                            l’écrivain comme porte-parole de sa communauté une conception
+                            <q>masculine</q> du fait littéraire, semblable à celle dénoncée par
+                            Martine Reid, puisque les femmes sont d’emblée perçues comme moins
+                            enclines à se lancer dans la littérature politique et plus intéressées
+                            par la littérature personnelle? Mais ces préjugés sont-ils fondés?</p>
+                    </div>
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+        </body>
+        
+
+    </text>
+</TEI>
