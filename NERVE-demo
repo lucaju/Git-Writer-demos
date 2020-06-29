@@ -316,7 +316,82 @@
             </sourceDesc>
         </fileDesc>
         <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-</rdf:RDF></xenoData><encodingDesc>
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200629135600457",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-29T17:56:00.457Z",
+	"dcterms:issued": "2020-06-29T17:56:07.969Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lucaju",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera",
+		"foaf:nick": "lucaju"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200629135600457#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200629135600457#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/div/p/ref/ref/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "a note"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
             </projectDesc>
@@ -363,7 +438,7 @@
                     <div type="section">
                         <p xml:id="p274">
                             <ref target="#historical_oppression">
-                                <ref target="#canon_formation">Commençons par une évidence : il y a toujours eu des femmes auteures. Faisons-la suivre d’une seconde : leur situation sur la scène littéraire n’a jamais été, jusqu’à récemment (et encore il faudrait sans doute nuancer cette affirmation), la même que celle des hommes. Ces affirmations, pour évidentes qu’elles puissent paraître, ont fait l’objet d’un bon nombre d’études savantes depuis l’avènement du féminisme. En effet, en dépit de ce qui nous semble indiscutable, il est parfois bien difficile de savoir combien de femmes ont écrit, voire combien de femmes écrivent. <ref target="#theme_or_topic">L’histoire littéraire</ref> en retient de fait bien peu. Dans son étude <title level="m" ref="http://viaf.org/viaf/314704425" cert="high">Des femmes en littérature</title>, <persName ref="http://viaf.org/viaf/73889695" cert="high">Martine Reid</persName> montre que les femmes n’accèdent que bien difficilement à la consécration puisque l’histoire littéraire <q>telle qu’elle s’est constituée au cours du <date from="2000" to="2100">XIXe siècle</date> a isolé quelques grandes figures au nom du <hi rend="italic">génie</hi> et d’une conception de la littérature résolument masculine</q> (Reid 6) et a exclu toutes les autres. Selon Reid, <q>[b]ien qu’elle ait été inlassablement dénoncée par la critique féministe dès le début des années <date when="1970" cert="high">1970</date>, cette situation d’ignorance et d’évitement perdure. Elle atteste, dit-elle, une surprenante résistance du champ académique […] et de ses acteurs, des enseignants, éditeurs et médias</q> (6). La littérature française n’est certes pas la seule à passer sous silence <ref target="#theme_or_topic">la production littéraire des femmes</ref> : il en est de même en littérature anglaise.</ref>
+                                <ref target="#canon_formation">Commençons<note type="researchNote">a note</note> par une évidence : il y a toujours eu des femmes auteures. Faisons-la suivre d’une seconde : leur situation sur la scène littéraire n’a jamais été, jusqu’à récemment (et encore il faudrait sans doute nuancer cette affirmation), la même que celle des hommes. Ces affirmations, pour évidentes qu’elles puissent paraître, ont fait l’objet d’un bon nombre d’études savantes depuis l’avènement du féminisme. En effet, en dépit de ce qui nous semble indiscutable, il est parfois bien difficile de savoir combien de femmes ont écrit, voire combien de femmes écrivent. <ref target="#theme_or_topic">L’histoire littéraire</ref> en retient de fait bien peu. Dans son étude <title level="m" ref="http://viaf.org/viaf/314704425" cert="high">Des femmes en littérature</title>, <persName ref="http://viaf.org/viaf/73889695" cert="high">Martine Reid</persName> montre que les femmes n’accèdent que bien difficilement à la consécration puisque l’histoire littéraire <q>telle qu’elle s’est constituée au cours du <date from="2000" to="2100">XIXe siècle</date> a isolé quelques grandes figures au nom du <hi rend="italic">génie</hi> et d’une conception de la littérature résolument masculine</q> (Reid 6) et a exclu toutes les autres. Selon Reid, <q>[b]ien qu’elle ait été inlassablement dénoncée par la critique féministe dès le début des années <date when="1970" cert="high">1970</date>, cette situation d’ignorance et d’évitement perdure. Elle atteste, dit-elle, une surprenante résistance du champ académique […] et de ses acteurs, des enseignants, éditeurs et médias</q> (6). La littérature française n’est certes pas la seule à passer sous silence <ref target="#theme_or_topic">la production littéraire des femmes</ref> : il en est de même en littérature anglaise.</ref>
                             </ref>
                         </p>
                         <p xml:id="p275">
