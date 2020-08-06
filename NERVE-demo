@@ -347,7 +347,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805211341267",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-06T01:13:41.267Z",
-	"dcterms:issued": "2020-08-06T01:15:52.421Z",
+	"dcterms:issued": "2020-08-06T01:16:03.497Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -423,7 +423,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805211341281",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-06T01:13:41.281Z",
-	"dcterms:issued": "2020-08-06T01:15:52.425Z",
+	"dcterms:issued": "2020-08-06T01:16:03.498Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -508,7 +508,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805211341288",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-06T01:13:41.288Z",
-	"dcterms:issued": "2020-08-06T01:15:52.425Z",
+	"dcterms:issued": "2020-08-06T01:16:03.498Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
