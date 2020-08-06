@@ -344,10 +344,10 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805211341267",
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805230809218",
 	"@type": "oa:Annotation",
-	"dcterms:created": "2020-08-06T01:13:41.267Z",
-	"dcterms:issued": "2020-08-06T01:15:41.861Z",
+	"dcterms:created": "2020-08-06T03:08:09.218Z",
+	"dcterms:issued": "2020-08-06T03:08:21.685Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -359,7 +359,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805211341267#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805230809218#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo",
@@ -373,7 +373,7 @@
 			"schema:softwareVersion": "1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805211341267#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805230809218#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div/div/p/ref/ref/note"
 		}
@@ -420,10 +420,10 @@
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"cito": "http://purl.org/spar/cito/"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805211341281",
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225",
 	"@type": "oa:Annotation",
-	"dcterms:created": "2020-08-06T01:13:41.281Z",
-	"dcterms:issued": "2020-08-06T01:15:41.870Z",
+	"dcterms:created": "2020-08-06T03:08:09.225Z",
+	"dcterms:issued": "2020-08-06T03:08:21.690Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -435,7 +435,7 @@
 	},
 	"oa:motivatedBy": "cwrc:citing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805211341281#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo",
@@ -449,7 +449,7 @@
 			"schema:softwareVersion": "1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805211341281#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div/div/p/ref/ref/title/note"
 		}
@@ -461,9 +461,9 @@
 			"rdf:value": "citation"
 		},
 		{
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805211341281#Cites",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225#Cites",
 			"@type": "cito:Citation",
-			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805211341281",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225",
 			"cito:hasCitedEntity": "http://www.citation.com",
 			"cito:hasCitationEvent": "cito:cites"
 		}
@@ -505,10 +505,10 @@
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"skos": "http://www.w3.org/2004/02/skos/"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805211341288",
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805230809230",
 	"@type": "oa:Annotation",
-	"dcterms:created": "2020-08-06T01:13:41.288Z",
-	"dcterms:issued": "2020-08-06T01:15:41.871Z",
+	"dcterms:created": "2020-08-06T03:08:09.230Z",
+	"dcterms:issued": "2020-08-06T03:08:21.692Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -520,7 +520,7 @@
 	},
 	"oa:motivatedBy": "oa:tagging",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805211341288#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805230809230#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo",
@@ -534,7 +534,7 @@
 			"schema:softwareVersion": "1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805211341288#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805230809230#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div/div/p/ref/ref/seg"
 		}
@@ -599,14 +599,13 @@
                 <div type="chapter" xml:lang="fr-CA">
                     <head>Être écrivaine en contexte minoritaire franco-canadien (<date from="1970" to="1985" cert="high">1970–1985</date>)</head>
                     <docAuthor>
-                        <persName ref=" http://viaf.org/viaf/32220127" cert="high">lucie hotte</persName>
-                    </docAuthor>
+                        <persName ref=" http://viaf.org/viaf/32220127" cert="high">lucie hotte - test</persName></docAuthor>
                     <div type="section">
                         <p xml:id="p274">
                             <ref target="#historical_oppression">
                                 <ref target="#canon_formation">Commençons<note type="researchNote">a note</note> par une évidence : il y a toujours eu des femmes auteures. Faisons-la suivre d’une seconde : leur situation sur la scène littéraire n’a jamais été, jusqu’à récemment (et encore il faudrait sans doute nuancer cette affirmation), la même que celle des hommes. Ces affirmations<seg type="keyword" ana="jey"><term>A key</term></seg>, pour évidentes qu’elles puissent paraître, ont fait l’objet d’un bon nombre d’études savantes depuis l’avènement du féminisme. En effet, en dépit de ce qui nous semble indiscutable, il est parfois bien difficile de savoir combien de femmes ont écrit, voire combien de femmes écrivent. <ref target="#theme_or_topic">L’histoire littéraire</ref> en retient de fait bien peu. Dans son étude <title level="m" ref="http://viaf.org/viaf/314704425" cert="high">Des femmes en littérature<note type="citation"><bibl><ref target="http://www.citation.com"/>citation</bibl></note></title>, <persName ref="http://viaf.org/viaf/73889695" cert="high">Martine Reid</persName> montre que les femmes n’accèdent que bien difficilement à la consécration puisque l’histoire littéraire <q>telle qu’elle s’est constituée au cours du <date from="2000" to="2100">XIXe siècle</date> a isolé quelques grandes figures au nom du <hi rend="italic">génie</hi> et d’une conception de la littérature résolument masculine</q> (Reid 6) et a exclu toutes les autres. Selon Reid, <q>[b]ien qu’elle ait été inlassablement dénoncée par la critique féministe dès le début des années <date when="1970" cert="high">1970</date>, cette situation d’ignorance et d’évitement perdure. Elle atteste, dit-elle, une surprenante résistance du champ académique […] et de ses acteurs, des enseignants, éditeurs et médias</q> (6). La littérature française n’est certes pas la seule à passer sous silence <ref target="#theme_or_topic">la production littéraire des femmes</ref> : il en est de même en littérature anglaise.</ref>
                             </ref>
-                        </p><figure><graphic url="https://cdn-images-1.medium.com/max/2400/1*-T8oo_JoKkMxfnPKLt_Ciw.jpeg"></graphic></figure>
+                        </p><figure/>
                         <p xml:id="p275">
                             <ref target="#representation_of_women">
                                 <ref target="#genre_novel"><ref target="#genre_scholarlyWriting">Dans un article paru en <date when="1986" cert="high">1986</date>, qui a fait date, <persName ref="http://viaf.org/viaf/27104976" cert="high">Dale Spender</persName> illustre cet état de fait à partir du roman anglais du <date from="1700" to="1800">XVIIIe</date> siècle. Elle rappelle que l’ouvrage de référence utilisé dans tous les cours universitaires a longtemps été <title xmlns="http://www.tei-c.org/ns/1.0" level="m" ref="http://viaf.org/viaf/310218323" cert="high"><hi xml:lang="en-CA">The Rise of the Novel: Studies in Defoe, Richardson and Fielding</hi></title> du critique renommé <persName ref="http://viaf.org/viaf/14862421" cert="high">Ian Watt</persName>.</ref> Spender dénonce le fait que dans cet ouvrage, qui prétendait faire l’histoire de la genèse du genre romanesque en <placeName ref="http://www.geonames.org/6269131/" cert="high">Angleterre</placeName>,Watt louange exclusivement des hommes qui, selon lui, ont donné naissance au genre. <ref target="#women_writing">Pourtant, Watt mentionne bien que <q xmlns="http://www.tei-c.org/ns/1.0"><hi xml:lang="en-CA" rend="italic">the majority of <date from="1700" to="1800" cert="high">eighteenth-century</date> novels were written by women</hi></q> (Spender 19). Il n’en demeure toutefois pas moins qu’il n’aborde pas du tout la question de la production féminine et ne mentionne qu’en passant quelques noms de romancières. Pourquoi Watt ne juge-t-il pas important d’analyser ces textes? <ref target="#historical_oppression">Selon Spender, qui a recensé plus de 600 romans écrits par une centaine de <q xmlns="http://www.tei-c.org/ns/1.0">grandes</q> romancières du <listEvent> <event> <label>Siècle des Lumières</label> </event> </listEvent> ayant connu leur heure de gloire à l’époque, ces écrivaines ont simplement été les victimes de l’androcentrisme de la critique littéraire.</ref></ref></ref>
