@@ -344,10 +344,10 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805230809218",
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200806105339063",
 	"@type": "oa:Annotation",
-	"dcterms:created": "2020-08-06T03:08:09.218Z",
-	"dcterms:issued": "2020-08-06T03:08:21.685Z",
+	"dcterms:created": "2020-08-06T14:53:39.063Z",
+	"dcterms:issued": "2020-08-06T14:54:07.109Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -359,7 +359,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805230809218#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200806105339063#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo",
@@ -373,7 +373,7 @@
 			"schema:softwareVersion": "1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200805230809218#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?note_annotation_20200806105339063#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div/div/p/ref/ref/note"
 		}
@@ -420,10 +420,10 @@
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"cito": "http://purl.org/spar/cito/"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225",
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200806105339067",
 	"@type": "oa:Annotation",
-	"dcterms:created": "2020-08-06T03:08:09.225Z",
-	"dcterms:issued": "2020-08-06T03:08:21.690Z",
+	"dcterms:created": "2020-08-06T14:53:39.067Z",
+	"dcterms:issued": "2020-08-06T14:54:07.116Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -435,7 +435,7 @@
 	},
 	"oa:motivatedBy": "cwrc:citing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200806105339067#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo",
@@ -449,7 +449,7 @@
 			"schema:softwareVersion": "1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200806105339067#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div/div/p/ref/ref/title/note"
 		}
@@ -461,9 +461,9 @@
 			"rdf:value": "citation"
 		},
 		{
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225#Cites",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200806105339067#Cites",
 			"@type": "cito:Citation",
-			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200805230809225",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?citation_annotation_20200806105339067",
 			"cito:hasCitedEntity": "http://www.citation.com",
 			"cito:hasCitationEvent": "cito:cites"
 		}
@@ -505,10 +505,10 @@
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"skos": "http://www.w3.org/2004/02/skos/"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805230809230",
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200806105339069",
 	"@type": "oa:Annotation",
-	"dcterms:created": "2020-08-06T03:08:09.230Z",
-	"dcterms:issued": "2020-08-06T03:08:21.692Z",
+	"dcterms:created": "2020-08-06T14:53:39.069Z",
+	"dcterms:issued": "2020-08-06T14:54:07.117Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -520,7 +520,7 @@
 	},
 	"oa:motivatedBy": "oa:tagging",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805230809230#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200806105339069#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo",
@@ -534,7 +534,7 @@
 			"schema:softwareVersion": "1.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200805230809230#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/NERVE-demo?keyword_annotation_20200806105339069#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div/div/p/ref/ref/seg"
 		}
@@ -599,7 +599,8 @@
                 <div type="chapter" xml:lang="fr-CA">
                     <head>Être écrivaine en contexte minoritaire franco-canadien (<date from="1970" to="1985" cert="high">1970–1985</date>)</head>
                     <docAuthor>
-                        <persName ref=" http://viaf.org/viaf/32220127" cert="high">lucie hotte - test</persName></docAuthor>
+                        <persName ref=" http://viaf.org/viaf/32220127" cert="high">lucie hotte</persName>
+                    </docAuthor>
                     <div type="section">
                         <p xml:id="p274">
                             <ref target="#historical_oppression">
