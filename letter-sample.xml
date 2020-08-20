@@ -45,7 +45,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/letter-sample.xml?correction_annotation_20200820182922089",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-20T22:29:22.089Z",
-	"dcterms:issued": "2020-08-20T22:29:26.534Z",
+	"dcterms:issued": "2020-08-20T22:30:08.723Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -120,7 +120,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/letter-sample.xml?date_annotation_20200820182922095",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-20T22:29:22.095Z",
-	"dcterms:issued": "2020-08-20T22:29:26.541Z",
+	"dcterms:issued": "2020-08-20T22:30:08.724Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -194,7 +194,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/letter-sample.xml?person_annotation_20200820182922107",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-20T22:29:22.107Z",
-	"dcterms:issued": "2020-08-20T22:29:26.544Z",
+	"dcterms:issued": "2020-08-20T22:30:08.724Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -270,7 +270,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/letter-sample.xml?person_annotation_20200820182922122",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-20T22:29:22.122Z",
-	"dcterms:issued": "2020-08-20T22:29:26.544Z",
+	"dcterms:issued": "2020-08-20T22:30:08.725Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -346,7 +346,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/letter-sample.xml?place_annotation_20200820182922135",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-20T22:29:22.135Z",
-	"dcterms:issued": "2020-08-20T22:29:26.545Z",
+	"dcterms:issued": "2020-08-20T22:30:08.725Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -422,7 +422,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/letter-sample.xml?place_annotation_20200820182922140",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-20T22:29:22.140Z",
-	"dcterms:issued": "2020-08-20T22:29:26.545Z",
+	"dcterms:issued": "2020-08-20T22:30:08.725Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -498,7 +498,7 @@
 	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/letter-sample.xml?place_annotation_20200820182922156",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2020-08-20T22:29:22.156Z",
-	"dcterms:issued": "2020-08-20T22:29:26.545Z",
+	"dcterms:issued": "2020-08-20T22:30:08.726Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lucaju",
 		"@type": [
@@ -548,7 +548,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter - Bertrand Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935 :)- 1</title></head>
+					<title>Sample Letter - Bertrand Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935 :)- 182</title></head>
 				<opener>
 					<note>
 						<p>Bad writing due to shaky train</p><p>In train</p><p>
