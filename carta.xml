@@ -191,10 +191,10 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902222842421",
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902223012288",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
-	"dcterms:modified": "2020-09-03T02:28:42.421Z",
+	"dcterms:modified": "2020-09-03T02:30:12.288Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -206,7 +206,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902222842421#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902223012288#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml",
@@ -220,13 +220,17 @@
 			"schema:softwareVersion": "6.0.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902222842421#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902223012288#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/abbr/persName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "279399399",
 		"dc:format": "text/plain"
 	},
@@ -250,7 +254,7 @@
 			}
 		}
 	],
-	"oa:hasCertainty": "cwrc:low"
+	"oa:hasCertainty": "cwrc:high"
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
@@ -575,7 +579,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter - Bertrand Russell to <abbr ana="abr"><persName cert="low" ref="279399399">Patricia Spence</persName></abbr> - October 21, 1935</title>
+					<title>Sample Letter - Bertrand Russell to <abbr ana="abr"><persName cert="high" ref="279399399" type="both">Patricia Spence</persName></abbr> - October 21, 1935</title>
 				</head>
 				<opener>
 					<note>
