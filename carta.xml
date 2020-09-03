@@ -191,10 +191,10 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20190814164101126",
+	"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902222842421",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
-	"dcterms:modified": "2019-08-14T20:41:01.126Z",
+	"dcterms:modified": "2020-09-03T02:28:42.421Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -206,7 +206,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20190814164101126#Target",
+		"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902222842421#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml",
@@ -220,9 +220,9 @@
 			"schema:softwareVersion": "6.0.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20190814164101126#Selector",
+			"@id": "https://raw.githubusercontent.com/lucaju/Git-Writer-demos/master/carta.xml?person_annotation_20200902222842421#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/persName"
+			"rdf:value": "TEI/text/body/div/head/title/abbr/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -237,6 +237,19 @@
 		"schema:url": "https://cwrc-writer.cwrc.ca",
 		"schema:softwareVersion": "6.0.0"
 	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/lucaju",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Persosn"
+				],
+				"cwrc:hasName": "Luciano Frizzera",
+				"foaf:nick": "lucaju"
+			}
+		}
+	],
 	"oa:hasCertainty": "cwrc:low"
 }
 ]]></rdf:Description>
@@ -562,7 +575,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter - Bertrand Russell to <persName cert="low" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
+					<title>Sample Letter - Bertrand Russell to <abbr ana="abr"><persName cert="low" ref="279399399">Patricia Spence</persName></abbr> - October 21, 1935</title>
 				</head>
 				<opener>
 					<note>
