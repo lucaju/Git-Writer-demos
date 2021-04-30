@@ -569,7 +569,7 @@
 					<salute mode="opa">I love you very much -</salute>
 					<signed>
 						<persName sameAs="http://www.freebase.com/view/en/bertrand_russell">
-							<persName cert="high" type="real" ref="http://viaf.org/viaf/36924137">B</persName>
+							<persName planet="alpha" type="real" ref="http://viaf.org/viaf/36924137">B</persName>
 						</persName>
 					</signed>
 				</closer>
